@@ -7,25 +7,7 @@ categories:
 tags:
 - decentralization
 - TeamCity
-status: publish
-type: post
 published: true
-meta:
-  _wpas_done_all: '1'
-  _hm_tor_status: published
-  _edit_last: '2'
-  _yoast_wpseo_focuskw: reduce complexity
-  _yoast_wpseo_title: Reduce complexity and react quicker through decentralization
-  _yoast_wpseo_metadesc: In this post I'll be discussing why you should reduce complexity
-    to enable software development teams to react quicker, albeit at a slightly higher
-    cost.
-  _yoast_wpseo_linkdex: '81'
-author:
-  login: peter.major
-  email: peter@petermajor.co.uk
-  display_name: Peter Major
-  first_name: Peter
-  last_name: Major
 ---
 I've been reading a book by _Charles Hugh Smith_ called _Get a Job, Build a Real Career, and Defy a Bewildering Economy_ \([amazon.co.uk](http://www.amazon.co.uk/Build-Real-Career-Bewildering-Economy-ebook/dp/B00JJX2KZM/ref=tmm_kin_title_0?ie=UTF8&amp;qid=1399318599&amp;sr=8-1)\).
 
