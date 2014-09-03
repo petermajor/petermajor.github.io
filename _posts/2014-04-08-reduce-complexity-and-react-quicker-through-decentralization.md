@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reduce complexity and react quicker through decentralization
-date: 2014-04-08 19:41:53.000000000 +01:00
+date: 2014-04-08 19:41:53
 categories:
 - Other passions
 tags:
