@@ -1,19 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-    <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
+  <body class="theme-1">
+    <!--START MENU-->
+    <nav class="menu">
+      <!--START SEARCH INPUT-->
+      <div class="input-group search-group">
+        <form action=""><span class="input-group-btn">
+            <button type="button" class="btn"><i class="fa fa-search"></i></button></span>
+          <input type="text" placeholder="Search..." name="search" class="form-control">
+          <input type="submit" value="submit" class="hidden">
+        </form>
       </div>
-    </div>
+      <!--END SEARCH INPUT-->
+      <!--START MENU BUTTON-->
+      <button class="menu-button closed"><span class="icon top"></span><span class="icon middle"></span><span class="icon bottom"></span></button>
+      <!--END MENU BUTTON-->
+      <!--START MENU LIST-->
+      <ul>
+        <li class="active"><a href="index.html">Home</a>
+          <ul>
+            <li class="active"><a href="index.html">Posts 1</a></li>
+            <li><a href="posts-2.html">Posts 2</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="post-1.html">Single Post</a></li>
+        <li><a href="archive.html">Archive</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <!--END MENU LIST-->
+    </nav>
+    <!--END MENU-->
+    <!--START MAIN CONTAINER-->
+    <main role="main" id="main-container">
+      <section class="line">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2"><a href="#" class="page-title">
+                <h1 class="brand">Cleany</h1>
+                <div class="logo"><i class="fa fa-paw"></i></div>
+                <h2 class="subtitle">Clean and Minimal Blog Template</h2></a></div>
+          </div>
+        </div>
+      </section>
+      <section class="line">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-9 col-sm-offset-1">
+              <!--START BLOG POSTS-->
+
+{{ content }}
+
+              <!--END BLOG POSTS-->
+              <!--START PAGINATION-->
+              <div class="text-right">
+                <ul class="pagination">
+                  <li><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+                  <li><a href="#">1</a></li>
+                  <li class="active"><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                </ul>
+              </div>
+              <!--END PAGINATION-->
+            </div>
+            <div class="col-sm-2">
+              <div class="widgets">
+                <div class="widget popular">
+                  <h2>Popular Posts</h2>
+                  <ul>
+                    <li><a href="#" class="title">Bear claw lemon drops powder.</a>
+                      <div class="date">27 December 2014</div>
+                    </li>
+                    <li><a href="#" class="title">Jujubes carrot cake muffin bonbon.</a>
+                      <div class="date">7 December 2014</div>
+                    </li>
+                    <li><a href="#" class="title">Jujubes carrot cake muffin bonbon.</a>
+                      <div class="date">7 December 2014</div>
+                    </li>
+                    <li><a href="#" class="title">Donut sugar plum tootsie roll</a>
+                      <div class="date">7 November 2014</div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="widget ad">
+                  <h2>Ads</h2><a href="#">
+                    <figure><img src="content/sponsor01.jpg"></figure></a><a href="#">
+                    <figure><img src="content/sponsor02.jpg"></figure></a>
+                </div>
+                <div class="widget archive">
+                  <h2>Archive</h2>
+                  <ul>
+                    <li><a href="#">December 2014</a></li>
+                    <li><a href="#">November 2014</a></li>
+                    <li><a href="#">October 2014</a></li>
+                    <li><a href="#">July 2014</a></li>
+                  </ul>
+                </div>
+                <div class="widget tags">
+                  <h2>Tags</h2>
+                  <ul>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Life</a></li>
+                    <li><a href="#">Misc</a></li>
+                  </ul>
+                </div>
+                <div class="widget instagram">
+                  <h2>Instagram</h2><a href="#">
+                    <figure><img src="content/widget-post01.jpg"></figure></a><a href="#">
+                    <figure><img src="content/widget-post02.jpg"></figure></a><a href="#">
+                    <figure><img src="content/widget-post03.jpg"></figure></a><a href="#">
+                    <figure><img src="content/widget-post04.jpg"></figure></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     {% include footer.html %}
 
-    </body>
+    <!--END MAIN CONTAINER-->
+    <!--SCRIPTS-->
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="js/vendor/jquery-1.10.1.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!--<script src="js/vendor/jquery.isotope.min.js"></script>
+    <script src="js/vendor/jquery.isotope.perfectmasonry.js"></script>
+    <script src="js/vendor/jquery.nivo.slider.js"></script>
+    <script src="js/plugins/jplayer/jquery.jplayer.min.js"></script>
+    <script src="js/plugins/jplayer/add-on/jplayer.playlist.min.js"></script>-->
+    <script src="js/main.js"></script>
+  </body>
 </html>
