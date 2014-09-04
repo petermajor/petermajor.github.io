@@ -1,7 +1,38 @@
 ---
 layout: default
 ---
+<div class="posts">
+	{% for post in site.posts %}
+	<article class="post">
+		<div class="row">
+			<div class="col-sm-2">
+				<ul class="post-info">
+					<li><span class="big">{{ post.date | date: "%-d" }}</span>{{ post.date | date: "%B %Y" }}</li>
+					<li><a href="#" class="big">0</a>Comments</li>
+					<li class="hidden-xs">Tags:<a href="#">movies</a><a href="#">music</a><a href="#">photography</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-10">
+				<a href="{{ post.url | prepend: site.baseurl }}" class="post-title">{{ post.title }}</a>
+				<div class="post-content">
+					<div class="text-editor">
+					{% if post.content contains '<!--more-->' %}
+						{{ post.content | split:'<!--more-->' | first }}
+					{% else %}
+						{{ post.content }}
+					{% endif %}
+					</div>
+					{% if post.content contains '<!--more-->' %}
+					<a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary regular-btn">Read More</a>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</article>
+	{% endfor %}
+</div>
 
+<!--
 <div class="home">
 
   <h1>Posts</h1>
@@ -18,3 +49,4 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+-->

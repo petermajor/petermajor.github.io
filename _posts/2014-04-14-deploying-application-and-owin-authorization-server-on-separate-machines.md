@@ -2,6 +2,7 @@
 layout: post
 title: Deploying application and OWIN authorization server on separate machines
 date: 2014-04-14 21:11:28
+author: Peter Major
 categories:
 - Security
 tags:
@@ -16,7 +17,9 @@ Say you've created a web application with the single page application template i
 
 Suppose you want to separate out the authorization service from the application. You might want to do this if you're going to create another web application and you want both web applications to use the same authorization service.
 
-![two applications sharing same authentication system](../assets/two-applications-sharing-same-authentication-system-1.png){:.img-auth width="335" height="336"}
+![two applications sharing same authentication system](/assets/two-applications-sharing-same-authentication-system-1.png){:.img-auth width="335" height="336"}
+
+<!--more-->
 
 ## Problem
 

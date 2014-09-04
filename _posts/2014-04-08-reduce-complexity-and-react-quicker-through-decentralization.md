@@ -2,6 +2,7 @@
 layout: post
 title: Reduce complexity and react quicker through decentralization
 date: 2014-04-08 19:41:53
+author: Peter Major
 categories:
 - Other passions
 tags:
@@ -14,6 +15,8 @@ I've been reading a book by _Charles Hugh Smith_ called _Get a Job, Build a Real
 The main premise of the book is that to get (and keep) a high-paying job, you need to stay ahead of labor commoditization. I won't go into that in any more detail here. However, one of the secondary threads running through the book is the theme of decentralization.
 
 I found this particularly interesting due to an experience I had recently at work a few months back.
+
+<!--more-->
 
 ## Complexity
 
