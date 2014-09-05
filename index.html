@@ -1,56 +1,33 @@
 ---
 layout: default
 ---
-<div class="posts">
-	{% for post in site.posts %}
-	<article class="post">
+
+{% for post in site.posts %}
+<div id="{% cycle 'grey', 'white' %}">
+	<div class="container">
 		<div class="row">
-			<div class="col-sm-2">
-				<ul class="post-info">
-					<li><span class="big">{{ post.date | date: "%-d" }}</span>{{ post.date | date: "%B %Y" }}</li>
-					<li><a href="#" class="big">0</a>Comments</li>
-					<li class="hidden-xs">Tags:
-						{% for tag in post.tags %}
-						<a href="#">{{ tag }}</a>
-						{% endfor %}
-					</li>
-				</ul>
-			</div>
-			<div class="col-sm-10">
-				<a href="{{ post.url | prepend: site.baseurl }}" class="post-title">{{ post.title }}</a>
-				<div class="post-content">
-					<div class="text-editor">
-					{% if post.content contains '<!--more-->' %}
-						{{ post.content | split:'<!--more-->' | first }}
-					{% else %}
-						{{ post.content }}
-					{% endif %}
-					</div>
-					{% if post.content contains '<!--more-->' %}
-					<a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary regular-btn">Read More</a>
-					{% endif %}
-				</div>
+			<div class="col-lg-8 col-lg-offset-2">
+				<p>
+					<img src="assets/img/user.png" width="50px" height="50px"> 
+					<ba>Stanley Stinson</ba>
+				</p>
+				<p>
+					<bd>{{ post.date | date: "%B %-d, %Y" }}</bd>
+				</p>
+				<h1>{{ post.title }}</h1>
+				{% if post.content contains '<!--more-->' %}
+					{{ post.content | split:'<!--more-->' | first }}
+				{% else %}
+					{{ post.content }}
+				{% endif %}
+				{% if post.content contains '<!--more-->' %}
+				<p><a href="{{ post.url }}">Continue Reading...</a></p>
+				{% endif %}
 			</div>
 		</div>
-	</article>
-	{% endfor %}
+		<!-- /row -->
+	</div>
+	<!-- /container -->
 </div>
+{% endfor %}
 
-<!--
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
--->
