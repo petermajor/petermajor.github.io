@@ -2,7 +2,7 @@
 layout: post
 title: Deploying application and OWIN authorization server on separate machines
 date: 2014-04-14 21:11:28
-author: Peter Major
+author: peter_major
 categories:
 - Security
 tags:

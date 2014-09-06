@@ -2,7 +2,7 @@
 layout: post
 title: Reduce complexity and react quicker through decentralization
 date: 2014-04-08 19:41:53
-author: Peter Major
+author: peter_major
 categories:
 - Other passions
 tags:

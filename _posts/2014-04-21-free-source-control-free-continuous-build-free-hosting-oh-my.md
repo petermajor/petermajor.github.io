@@ -2,7 +2,7 @@
 layout: post
 title: Free source control, free continuous deployment, free hosting - oh my!
 date: 2014-04-21 20:32:35
-author: Peter Major
+author: peter_major
 categories:
 - Azure
 tags:

@@ -240,3 +240,10 @@ bt {
 	font-size: 40px;
 	color: #1abc9c;
 }
+
+img.avatar {
+	border-radius: 100%;
+	border: 2px solid #FFF;
+	height: 50px;
+	weight: 50px;
+}

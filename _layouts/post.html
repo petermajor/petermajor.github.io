@@ -12,4 +12,10 @@ layout: default
   {{ content }}
   </article>
 
+{% assign author = site.data.authors[post.author] %}
+{% if author.google_plus %}
+<a href="{{ author.google_plus }}?rel=author">Google</a>
+{% endif %}
+
 </div>
+
