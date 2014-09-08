@@ -115,5 +115,3 @@ public class X509DataProtector : IDataProtector
 I then created a data protector provider, which loaded a certificate by thumbprint from the machine store.
 
 Finally I configured OWIN to use the custom data provider by calling <code>app.SetDataProtectionProvider()</code> in my Startup.Auth.cs.
-
-[Google](https://plus.google.com/+PeterMajorUk?rel=author)

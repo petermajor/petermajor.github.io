@@ -105,5 +105,3 @@ That being said, it really is just a framework. It doesn't come with any built-i
 Combining that framework with the goodness of Animate.css means that animations in AngurlarJS are accessible to anyone.
 
 I just hope that means that we won't be going back to a 1990 style web, where everything is flashing ;-)
-
-[Google](https://plus.google.com/+PeterMajorUk?rel=author)

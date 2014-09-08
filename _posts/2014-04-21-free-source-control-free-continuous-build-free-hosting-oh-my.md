@@ -60,5 +60,3 @@ The difference between the two is the cost savings of dynamic scaling.
 You like the idea of using Visual Studio Online for your next little project? Great, checkout my next post, where I'll take you through setting this up, step by step.
 
 EDIT: Here's the follow-up post [Setting up Visual Studio Online Continuous Deployment]({% post_url 2014-04-27-setting-up-visual-studio-online-continuous-deployment %})
-
-[Google](https://plus.google.com/+PeterMajorUk?rel=author)

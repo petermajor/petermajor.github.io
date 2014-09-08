@@ -236,13 +236,6 @@ bt {
 	opacity: 0.5;
 }
 
-/* glyphicon Configuration */
-
-.glyphicon {
-	font-size: 40px;
-	color: #1abc9c;
-}
-
 img.avatar {
 	border-radius: 100%;
 	border: 2px solid #FFF;

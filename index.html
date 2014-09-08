@@ -7,7 +7,6 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
-
 				{% assign author = site.data.authors[post.author] %}
 				{% if author %}
 				<p>
@@ -15,10 +14,7 @@ layout: default
 					<ba>{{ author.name }}</ba>
 				</p>
 				{% endif %}
-
-				<p>
-					<bd>{{ post.date | date: "%B %-d, %Y" }}</bd>
-				</p>
+				<p><bd>{{ post.date | date: "%B %-d, %Y" }}</bd></p>
 				<h1><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></h1>
 				{% if post.content contains '<!--more-->' %}
 					{{ post.content | split:'<!--more-->' | first }}

@@ -78,6 +78,3 @@ When you think about [loose coupling and high cohesion](http://msdn.microsoft.co
 We also know that the reason we write tests is so that we are fearless. When we refactor a system, we must know that we haven't changed the behavior of that system. If we're fearful, we don't change the system. It rots and dies.
 
 I think the same paradigms can be applied to not just the code we write, but the way we work too.
-
-[Google](https://plus.google.com/+PeterMajorUk?rel=author)
-

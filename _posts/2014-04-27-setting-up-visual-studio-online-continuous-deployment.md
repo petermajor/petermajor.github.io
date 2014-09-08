@@ -157,5 +157,3 @@ You're probably thinking, "There's no way I'm gonna remember that. You said in t
 * You'll do step 7 a lot. That's the step where you click the __Commit__ button. That's all you have to do. Over and over...
 
 Good luck and happy __Commit__ button mashing!
-
-[Google](https://plus.google.com/+PeterMajorUk?rel=author)
