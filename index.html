@@ -8,13 +8,9 @@ layout: default
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
 				{% assign author = site.data.authors[post.author] %}
-				{% if author %}
-				<p>
-					<img class="avatar" src="{{author.avatar}}" alt="A photo of {{ author.name }}"> 
-					<ba>{{ author.name }}</ba>
-				</p>
-				{% endif %}
-				<p><bd>{{ post.date | date: "%B %-d, %Y" }}</bd></p>
+				<img class="avatar" src="{{author.avatar}}" alt="A photo of {{ author.name }}"> 				
+				<ba>{{ author.name }}</ba>
+				<bd>{{ post.date | date: "%B %-d, %Y" }}</bd>
 				<h1><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></h1>
 				{% if post.content contains '<!--more-->' %}
 					{{ post.content | split:'<!--more-->' | first }}

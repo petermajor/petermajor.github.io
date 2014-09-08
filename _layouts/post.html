@@ -7,13 +7,9 @@ layout: default
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
 				{% assign author = site.data.authors[page.author] %}
-				{% if author %}
-				<p>
-					<img class="avatar" src="{{author.avatar}}" alt="A photo of {{ author.name }}"> 
-					<ba>{{ author.name }}</ba>
-				</p>
-				{% endif %}
-				<p><bd>{{ page.date | date: "%B %-d, %Y" }}</bd></p>
+				<img class="avatar" src="{{author.avatar}}" alt="A photo of {{ author.name }}"> 				
+				<ba>{{ author.name }}</ba>
+				<bd>{{ page.date | date: "%B %-d, %Y" }}</bd>
 				<h1>{{ page.title }}</h1>
 				{{ content }}
 				
