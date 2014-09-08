@@ -19,7 +19,7 @@ layout: default
 				<p>
 					<bd>{{ post.date | date: "%B %-d, %Y" }}</bd>
 				</p>
-				<h1>{{ post.title }}</h1>
+				<h1><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></h1>
 				{% if post.content contains '<!--more-->' %}
 					{{ post.content | split:'<!--more-->' | first }}
 				{% else %}

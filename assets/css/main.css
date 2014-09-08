@@ -77,6 +77,10 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+a.post-title {
+    color: #333;
+}
+
  hr {
     display: block;
     height: 1px;
