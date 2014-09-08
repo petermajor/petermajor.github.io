@@ -158,4 +158,4 @@ You're probably thinking, "There's no way I'm gonna remember that. You said in t
 
 Good luck and happy __Commit__ button mashing!
 
-<a href="https://plus.google.com/+PeterMajorUk?rel=author">Google</a>
+[Google](https://plus.google.com/+PeterMajorUk?rel=author)
