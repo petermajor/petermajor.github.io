@@ -83,12 +83,14 @@ Here's a Plunkr I created of the AngularJS + Animate.css animation: [Plunkr]
 
 The animation CSS looks like this:
 
-<pre class="lang:css decode:true">.message.ng-enter {
+{% highlight css %}
+.message.ng-enter {
     -webkit-animation: fadeIn 1s;
     -moz-animation: fadeIn 1s;
     -ms-animation: fadeIn 1s;
     animation: fadeIn 1s;
-}</pre>
+}
+{% endhighlight %}
 
 Firstly, I can just name a animation by name, I don't have to know what properties I want to animate. The Animate.css library has some pretty complex animations to... I wouldn't want to spend my time writing those!
 
