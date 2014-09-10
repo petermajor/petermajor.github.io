@@ -17,6 +17,11 @@ layout: default
 				<p><a href="{{ author.google_plus }}?rel=author">Google</a></p>
 				{% endif %}
 
+				<p><bt>TAGS:
+				{% for tag in page.tags %}
+				<a href="#">{{ tag }}</a>
+				{% endfor %}
+				</bt></p>
 				<!--<br>
 				<p><bt>TAGS: <a href="#">Wordpress</a> - <a href="#">Web Design</a></bt></p>-->
 				<hr>

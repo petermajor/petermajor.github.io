@@ -211,6 +211,14 @@ bt {
 	font-size: 12px;
 }
 
+bt a:after {
+    content: ' - '
+}
+
+bt a:last-of-type:after {
+    content:''
+}
+
 /* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
 /* Effects also are controled by hover.zoom.js */
 .zoom { 
