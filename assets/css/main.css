@@ -81,6 +81,10 @@ a.post-title {
     color: #333;
 }
 
+.back-link {
+	margin-bottom: 0;
+}
+
  hr {
     display: block;
     height: 1px;
