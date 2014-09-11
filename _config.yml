@@ -10,3 +10,4 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 permalink: /:title.html
+paginate: 10

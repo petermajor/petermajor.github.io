@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-<div id="{% cycle 'grey', 'white' %}">
+{% for post in paginator.posts %}
+<div class="{% cycle 'grey', 'white' %} post">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
@@ -18,13 +18,36 @@ layout: default
 					{{ post.content }}
 				{% endif %}
 				{% if post.content contains '<!--more-->' %}
-				<p><a href="{{ post.url }}">Continue Reading...</a></p>
+				<a class="post-more" href="{{ post.url }}">Continue Reading...</a>
 				{% endif %}
 			</div>
 		</div>
-		<!-- /row -->
 	</div>
-	<!-- /container -->
 </div>
 {% endfor %}
-
+{% assign mod = paginator.posts.size | modulo:2 %}
+<div class="{% case mod %} {% when 1 %}grey{% else %}white{% endcase %}">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<!-- Pagination links -->
+				<div class="page-block">
+					<div class="page-newer">
+					{% if paginator.previous_page %}
+					    	{% if paginator.page == 2 %}
+						<a href="/"><span class="glyphicon glyphicon-chevron-left"></span> Newer</a>
+					    	{% else %}
+						<a href="/page{{ paginator.previous_page }}"><span class="glyphicon glyphicon-chevron-left"></span> Newer</a>
+						{% endif %}
+					{% endif %}
+					</div>
+					<div class="page-older">
+						{% if paginator.next_page %}
+						<a href="/page{{ paginator.next_page }}" class="older">Older <span class="glyphicon glyphicon-chevron-right"></span></a>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
