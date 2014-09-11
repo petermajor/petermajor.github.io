@@ -2,7 +2,7 @@
 layout: default
 ---
 <!-- +++++ Post +++++ -->
-<div id="white">
+<div class="white post">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
@@ -13,19 +13,17 @@ layout: default
 				<h1>{{ page.title }}</h1>
 				{{ content }}
 				
-				{% if author.google_plus %}
+				<!--{% if author.google_plus %}
 				<p><a href="{{ author.google_plus }}?rel=author">Google</a></p>
-				{% endif %}
+				{% endif %}-->
 
 				<p><bt>TAGS:
 				{% for tag in page.tags %}
 				<a href="#">{{ tag }}</a>
 				{% endfor %}
 				</bt></p>
-				<!--<br>
-				<p><bt>TAGS: <a href="#">Wordpress</a> - <a href="#">Web Design</a></bt></p>-->
-				<hr>
-				<p><a href="/"><span class="glyphicon glyphicon-arrow-left"></span> Back</a></p>
+
+				<p><a href="/"><span class="glyphicon glyphicon-chevron-left"></span> Back</a></p>
 			</div>
 
 		</div><!-- /row -->
