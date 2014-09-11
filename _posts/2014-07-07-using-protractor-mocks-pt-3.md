@@ -27,7 +27,7 @@ Also, how can you test how your application behaves when your API returns errors
 
 ## Code sample
 
-I recently wrote another series of posts on <span style="color:pink">implementing optimistic concurrency<span> with AngularJS and Web API.
+I recently wrote another series of posts on [implementing optimistic concurrency]({% post_url 2014-06-05-restangular-and-etags-pt2 %}) with AngularJS and Web API.
 
 I've taken the code sample for that article and I've written Protractor tests for two scenarios : updating an entity (PUT) and concurrency error on updating an entity (412 - Precondition failed) .
 
