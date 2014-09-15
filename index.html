@@ -26,7 +26,7 @@ layout: default
 </div>
 {% endfor %}
 {% assign mod = paginator.posts.size | modulo:2 %}
-<div class="{% case mod %} {% when 1 %}grey{% else %}white{% endcase %}">
+<div class="{% case mod %} {% when 1 %}white{% else %}grey{% endcase %}">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
