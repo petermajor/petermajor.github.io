@@ -155,20 +155,14 @@ a.post-title {
 
 #footer {
 	background-color: #2f2f2f;
-	padding-top: 50px;
-	padding-bottom: 50px; 
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 #footer p {
 	color: white;
+	margin-bottom: 0;
 }
-
-#footer h4 {
-	color: white;
-	text-transform: uppercase;
-	padding-bottom: 20px;
-}
-
 
 /* +++++ Color Wraps / Blog Page +++++ */
 
