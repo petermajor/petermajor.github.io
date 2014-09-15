@@ -150,7 +150,6 @@ a.post-title {
 #ww {
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background-color: #f2f2f2;
 }
 
 
@@ -218,7 +217,7 @@ bt {
 }
 
 bt a:after {
-    content: ' - '
+    content: ' - ';
 }
 
 bt a:last-of-type:after {
