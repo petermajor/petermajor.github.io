@@ -10,6 +10,7 @@ markdown: kramdown
 permalink: /:title.html
 
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md']
+excerpt_separator: "<!--more-->"
 
 gems:
   - jekyll-sitemap

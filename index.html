@@ -12,14 +12,8 @@ layout: default
 				<a href="/about.html"><ba>{{ author.name }}</ba></a>
 				<bd>{{ post.date | date: "%B %-d, %Y" }}</bd>
 				<h1><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></h1>
-				{% if post.content contains '<!--more-->' %}
-					{{ post.content | split:'<!--more-->' | first }}
-				{% else %}
-					{{ post.content }}
-				{% endif %}
-				{% if post.content contains '<!--more-->' %}
+				{{ post.excerpt }}
 				<a class="post-more" href="{{ post.url }}">Continue Reading...</a>
-				{% endif %}
 			</div>
 		</div>
 	</div>
