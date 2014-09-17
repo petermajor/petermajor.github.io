@@ -9,3 +9,5 @@ paginate: 10
 markdown: kramdown
 permalink: /:title.html
 
+gems:
+  - jekyll-sitemap
