@@ -9,5 +9,7 @@ paginate: 10
 markdown: kramdown
 permalink: /:title.html
 
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md']
+
 gems:
   - jekyll-sitemap
