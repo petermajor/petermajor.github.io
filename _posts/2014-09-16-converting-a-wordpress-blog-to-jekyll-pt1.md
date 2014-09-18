@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Converting A Wordpress Blog To Jekyll
+title: Converting A Wordpress Blog To Jekyll (pt. 1)
 date: 2014-09-16 09:00:00
 categories:
 - Jekyll
