@@ -9,3 +9,8 @@ paginate: 10
 markdown: kramdown
 permalink: /:title.html
 
+exclude: ['Gemfile', 'Gemfile.lock', 'package.json', 'gulpfile.js', 'README.md']
+excerpt_separator: "<!--more-->"
+
+gems:
+  - jekyll-sitemap

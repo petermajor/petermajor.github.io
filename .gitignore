@@ -5,3 +5,4 @@ _site
 *.css~
 *.yml~
 .gitignore~
+node_modules
