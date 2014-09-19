@@ -21,9 +21,9 @@ Before we look at the Protractor mocks, let's have a look at the sample applicat
 1. Clone my sample application at [GitHub](https://github.com/petermajor/ProtractorWithoutBackend)
 2. Open the solution In Visual Studio 2013 and press F5 to run the application.
 3. Once the web page appears, type __w7__ and click the __search__ button. You should see a couple of restaurants listed:<br />
-[![List of restaurants](assets/SearchW7.png){:.img-300-209 width="300" height="209"}](assets/SearchW7.png)
+[![List of restaurants](/assets/SearchW7.png){:.img-300-209 width="300" height="209"}](/assets/SearchW7.png)
 4. Change the search term to __xxx__ and click the __search__ button again. You should now see a "not found" message:<br />
-[![Not found](assets/SearchXxx.png){:.img-300-146 width="300" height="146"}](assets/SearchXxx.png)
+[![Not found](/assets/SearchXxx.png){:.img-300-146 width="300" height="146"}](/assets/SearchXxx.png)
 
 <!--more-->
 

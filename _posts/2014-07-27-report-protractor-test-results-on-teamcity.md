@@ -16,7 +16,7 @@ You're probably using Jasmine to run your Protractor tests.
 
 By default, Jasmine reports test results in a human readable form:
 
-[![Default reporting in Protractor](assets/protractor_default.png){:.img-680-346 width="510" height="258"}](assets/protractor_default.png)
+[![Default reporting in Protractor](/assets/protractor_default.png){:.img-680-346 width="510" height="258"}](/assets/protractor_default.png)
 
 While this is great for us, it doesn't mean a lot to TeamCity. If you use the default configuration these tests will not show up on the builds 'Test' tab.
 
@@ -92,12 +92,12 @@ exports.config = {
 
 Now when we run our tests, the results are a lot less readable (to us):
 
-[![TeamCity reporting in Protractor](assets/protractor_reporter.png){:.img-509-448 width="509" height="448"}](assets/protractor_reporter.png)
+[![TeamCity reporting in Protractor](/assets/protractor_reporter.png){:.img-509-448 width="509" height="448"}](/assets/protractor_reporter.png)
 
 
 However, to they now show up in TeamCity:
 
-[![Protractor results showing in TeamCity](assets/teamcity.png){:.img-440-220 width="494" height="220"}](assets/teamcity.png)
+[![Protractor results showing in TeamCity](/assets/teamcity.png){:.img-440-220 width="494" height="220"}](/assets/teamcity.png)
 
 One thing to note if the test __duration__. My protractor tests are pretty fast, but they're not running in <1 ms LOL. I'll have to look into why the durations are reported so low.
 

@@ -88,7 +88,7 @@ module.exports.getEmployeeDonaldTrump = function ($httpBackend) {
 
 When the test runs, the page will look like this:
 
-[![GetEmployee](assets/GetEmployee2.png){:.img-300-265 width="300" height="265"}](assets/GetEmployee2.png)
+[![GetEmployee](/assets/GetEmployee2.png){:.img-300-265 width="300" height="265"}](/assets/GetEmployee2.png)
 
 The test verifies that the values in the inputs are correct and that's it.
 

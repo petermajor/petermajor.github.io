@@ -26,7 +26,7 @@ Let's see the ETag implementation in action:
 4. Now open a __new browser tab__ and navigate to the same employee
 5. In tab 1 - change the name of the employee, then click save. No error should occur.
 6. In tab 2 - (without refreshing the page) change the name of the employee, then click save. An alert should appear:<br />
-[![PreconditionFailure](assets/PreconditionFailure.png){:.img-520-349 width="520" height="349"}](assets/PreconditionFailure.png)
+[![PreconditionFailure](/assets/PreconditionFailure.png){:.img-520-349 width="520" height="349"}](/assets/PreconditionFailure.png)
 
 <!--more-->
 
@@ -38,13 +38,13 @@ The error occurred because the user in tab 2 is attempting to update an employee
 
 Here's a capture from the Chrome debugger for the first GET on /api/employees/{id}:
 
-[![1-GetEmployee](assets/1-GetEmployee.png){:.img-630-432 width="630" height="432"}](assets/1-GetEmployee.png)
+[![1-GetEmployee](/assets/1-GetEmployee.png){:.img-630-432 width="630" height="432"}](/assets/1-GetEmployee.png)
 
 Note the __ETag__ header in the response (highlighted in red).
 
 After changing the name and clicking save, Restangular sent the updated employee to PUT /api/employees/{id}:
 
-[![2-PutEmployee](assets/2-PutEmployee.png){:.img-632-573 width="632" height="573"}](assets/2-PutEmployee.png)
+[![2-PutEmployee](/assets/2-PutEmployee.png){:.img-632-573 width="632" height="573"}](/assets/2-PutEmployee.png)
 
 Note that the same ETag from the GET response was put in an __If-Match__ header on the PUT request. Since the value in the If-Match header matches the current ETag of the employee on the server, it accepted the PUT request and updated the employee and included the new ETag of the updated employee in the response header (highlighted in red).
 
@@ -52,7 +52,7 @@ So how does Restangular know to do this header magic?
 
 Easy. If the ETag header exists in a request or a response then Restangular will put the ETag value in a custom property of the resource called RestangularEtag, as you can see from this debugger watch:
 
-[![3-EmployeeWithRestangularEtag](assets/3-EmployeeWithRestangularEtag.png){:.img-400-604 width="400" height="604"}](assets/3-EmployeeWithRestangularEtag.png)
+[![3-EmployeeWithRestangularEtag](/assets/3-EmployeeWithRestangularEtag.png){:.img-400-604 width="400" height="604"}](/assets/3-EmployeeWithRestangularEtag.png)
 
 You can rename this property to something else with the following line of javascript in an AngurlarJS .config block:
 
