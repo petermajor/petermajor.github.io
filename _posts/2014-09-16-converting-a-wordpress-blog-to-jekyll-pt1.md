@@ -9,6 +9,9 @@ tags:
 - Jekyll
 published: true
 author: peter_major
+sitemap:
+  priority: 0.6
+  changefreq: weekly
 ---
 ## What's wrong with Wordpress?
 

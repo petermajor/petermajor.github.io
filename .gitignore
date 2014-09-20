@@ -4,5 +4,6 @@ _site
 *.html~
 *.css~
 *.yml~
+*.xml~
 .gitignore~
 node_modules

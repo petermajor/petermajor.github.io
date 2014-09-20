@@ -7,8 +7,11 @@ categories:
 - Azure
 tags:
 - Azure
-- Web Development
+- web development
 published: true
+sitemap:
+  priority: 0.6
+  changefreq: weekly
 ---
 
 This is a followup post to [Free source control, free continuous deployment, free hosting - oh my!]({% post_url 2014-04-21-free-source-control-free-continuous-build-free-hosting-oh-my %})

@@ -9,6 +9,9 @@ tags:
 - decentralization
 - TeamCity
 published: true
+sitemap:
+  priority: 0.6
+  changefreq: weekly
 ---
 I've been reading a book by _Charles Hugh Smith_ called _Get a Job, Build a Real Career, and Defy a Bewildering Economy_ \([amazon.co.uk](http://www.amazon.co.uk/Build-Real-Career-Bewildering-Economy-ebook/dp/B00JJX2KZM/ref=tmm_kin_title_0?ie=UTF8&amp;qid=1399318599&amp;sr=8-1)\).
 

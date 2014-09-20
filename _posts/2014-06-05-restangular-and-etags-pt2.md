@@ -10,6 +10,9 @@ tags:
 - Restangular
 published: true
 author: peter_major
+sitemap:
+  priority: 0.6
+  changefreq: weekly
 ---
 
 This is part 2 of a 2 part series: [part 1]({% post_url 2014-06-05-restangular-and-etags-pt1 %})

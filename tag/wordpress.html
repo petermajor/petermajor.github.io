@@ -1,0 +1,25 @@
+---
+layout: default
+sitemap:
+  priority: 0.2
+  changefreq: weekly
+---
+{% assign thetag = 'Jekyll' %}
+
+{% for post in site.tags[thetag] %}
+<div class="{% cycle 'white', 'grey' %} post">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				{% assign author = site.data.authors[post.author] %}
+				<a href="/about.html"><img class="avatar" src="{{author.avatar}}" alt="A photo of {{ author.name }}" height="50" width="50"></a>
+				<a href="/about.html"><ba>{{ author.name }}</ba></a>
+				<bd>{{ post.date | date: "%B %-d, %Y" }}</bd>
+				<h1><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></h1>
+				{{ post.excerpt }}
+				<a class="post-more" href="{{ post.url }}">Continue Reading...</a>
+			</div>
+		</div>
+	</div>
+</div>
+{% endfor %}

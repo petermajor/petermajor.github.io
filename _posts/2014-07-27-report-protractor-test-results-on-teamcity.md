@@ -9,6 +9,9 @@ tags:
 - TeamCity
 published: true
 author: peter_major
+sitemap:
+  priority: 0.6
+  changefreq: weekly
 ---
 ## Jasmine
 

@@ -10,6 +10,9 @@ tags:
 - security
 - web development
 published: true
+sitemap:
+  priority: 0.6
+  changefreq: weekly
 ---
 ## Scenario
 

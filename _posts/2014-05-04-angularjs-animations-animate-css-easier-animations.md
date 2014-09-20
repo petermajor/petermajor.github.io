@@ -6,9 +6,12 @@ categories:
 - AngularJS
 tags:
 - AngularJS
-- Animations
+- animations
 published: true
 author: peter_major
+sitemap:
+  priority: 0.6
+  changefreq: weekly
 ---
 ## Scenario
 

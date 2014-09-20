@@ -7,9 +7,12 @@ categories:
 tags:
 - AngularJS
 - Protractor
-- Web Development
+- web development
 published: true
 author: peter_major
+sitemap:
+  priority: 0.6
+  changefreq: weekly
 ---
 
 This is part 2 of a 3 part series: [part 1]({% post_url 2014-05-25-using-protractor-mocks-pt-1 %}), [part 3]({% post_url 2014-07-07-using-protractor-mocks-pt-3 %})
