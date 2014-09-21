@@ -7,7 +7,6 @@ categories:
 tags:
 - AngularJS
 - Protractor
-- web development
 published: true
 author: peter_major
 sitemap:

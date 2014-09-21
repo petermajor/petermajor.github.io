@@ -8,7 +8,6 @@ categories:
 tags:
 - OWIN
 - security
-- web development
 published: true
 sitemap:
   priority: 0.6
