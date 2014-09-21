@@ -82,7 +82,6 @@ a.post-title {
 }
 
 .back-link {
-	margin-bottom: 0;
 }
 
  hr {
@@ -176,7 +175,7 @@ a.post-title {
 
 .post {
 	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 0;
 }
 
 .post-more {

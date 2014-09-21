@@ -12,7 +12,13 @@ layout: default
 				<bd>{{ post.date | date: "%B %-d, %Y" }}</bd>
 				<h1><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></h1>
 				{{ post.excerpt }}
-				<a class="post-more" href="{{ post.url }}">Continue Reading...</a>
+				<p><a class="post-more" href="{{ post.url }}">Continue Reading...</a></p>
+
+				<p><bt>TAGS:
+				{% for tag in post.tags %}
+				<a href="{{ tag | replace ' ', '' | downcase | append:'.html' | prepend:'/tag/' }}">{{ tag }}</a>
+				{% endfor %}
+				</bt></p>
 			</div>
 		</div>
 	</div>
