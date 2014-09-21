@@ -9,6 +9,7 @@ tags:
 - Azure
 - web development
 published: true
+comments: true
 sitemap:
   priority: 0.6
   changefreq: weekly

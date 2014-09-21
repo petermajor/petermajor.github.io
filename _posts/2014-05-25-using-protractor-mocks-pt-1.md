@@ -9,6 +9,7 @@ tags:
 - Protractor
 published: true
 author: peter_major
+comments: true
 sitemap:
   priority: 0.6
   changefreq: weekly
