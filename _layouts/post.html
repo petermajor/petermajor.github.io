@@ -12,16 +12,12 @@ layout: default
 				<bd>{{ page.date | date: "%B %-d, %Y" }}</bd>
 				<h1>{{ page.title }}</h1>
 				{{ content }}
-				
-				<!--{% if author.google_plus %}
-				<p><a href="{{ author.google_plus }}?rel=author">Google</a></p>
-				{% endif %}-->
 
-				<!--<p><bt>TAGS:
+				<p><bt>TAGS:
 				{% for tag in page.tags %}
-				<a href="#">{{ tag }}</a>
+				<a href="{{ tag | replace ' ', '' | downcase | append:'.html' | prepend:'/tag/' }}">{{ tag }}</a>
 				{% endfor %}
-				</bt></p>-->
+				</bt></p>
 
 				<p class="back-link"><a href="/"><span class="glyphicon glyphicon-chevron-left"></span> Back</a></p>
 			</div>
