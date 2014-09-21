@@ -207,14 +207,15 @@ ba {
 
 /* Blog Tags */
 bt {
+	color: #9F9F9F;
 }
 
-bt a:after {
-    content: ' - ';
+bt .glyphicon-tags {
+	margin-right: 10px;
 }
 
-bt a:last-of-type:after {
-    content:''
+bt a {
+	color: #9F9F9F;
 }
 
 .page-block {

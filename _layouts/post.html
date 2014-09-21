@@ -12,9 +12,9 @@ layout: default
 				<h1>{{ page.title }}</h1>
 				{{ content }}
 
-				<p><bt>TAGS:
+				<p><bt><span class="glyphicon glyphicon-tags"></span>
 				{% for tag in page.tags %}
-				<a href="{{ tag | replace ' ', '' | downcase | append:'.html' | prepend:'/tag/' }}">{{ tag }}</a>
+				<a href="{{ tag | replace ' ', '' | downcase | append:'.html' | prepend:'/tag/' }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
 				{% endfor %}
 				</bt></p>
 
