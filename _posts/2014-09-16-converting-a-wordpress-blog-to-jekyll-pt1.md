@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Converting A Wordpress Blog To Jekyll (pt. 1)
+title: Converting A Wordpress Blog To Jekyll
 date: 2014-09-16 09:00:00
 categories:
 - Jekyll
@@ -14,6 +14,9 @@ sitemap:
   priority: 0.6
   changefreq: weekly
 ---
+
+This is part 1 of a n part series: [part 2]({% post_url 2014-09-21-creating-a-new-blog-with-jekyll %})
+
 ## What's wrong with Wordpress?
 
 I know a work colleague who is a PHP developer and I've learned a very important lesson while having beers after work: _don't mention Wordpress_.
@@ -87,7 +90,7 @@ On the other hand, if you're more into lots of plugins and want a blog with all 
 
 Keep in mind that if you want your blog to run reasonably well, you're going to have to pay for good hosting.
 
-In my next post, I'll step you through how I converted my blog from Wordpress to Jekyll, describing the good, the bad and the ugly.
+[In my next few posts]({% post_url 2014-09-21-creating-a-new-blog-with-jekyll %}) I'll step you through how I converted my blog from Wordpress to Jekyll, describing the good, the bad and the ugly.
 
 
  
