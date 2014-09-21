@@ -3,14 +3,13 @@ title: committed coder
 description: "coding is a journey, the destination keeps on changing"
 baseurl: ""
 url: "http://www.committedcoder.com"
-paginate: 10
+enable_analytics: true
+enable_discus: true
 
 # Build settings
 markdown: kramdown
 permalink: /:title.html
-
-exclude: ['Gemfile', 'Gemfile.lock', 'package.json', 'gulpfile.js', 'README.md']
 excerpt_separator: "<!--more-->"
+exclude: ['Gemfile', 'Gemfile.lock', 'package.json', 'gulpfile.js', 'README.md']
+paginate: 10
 
-gems:
-  - jekyll-sitemap
