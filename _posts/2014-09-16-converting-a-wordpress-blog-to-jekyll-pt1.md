@@ -23,6 +23,8 @@ Additionally, it's incredibly easy to add functionality through plugins. For exa
 
 So when my PHP friend mentioned that he hosts a blog on [GitHub Pages](https://pages.github.com/) with [Jekyll](http://jekyllrb.com/), I was wondering what that was all about.
 
+<!--more-->
+
 In reality, my Wordpress paradise was already starting to crumble:
 
 * We chose a cheap hosting package, which meant our site was under spec'ed to be running all the components required by Wordpress
@@ -33,8 +35,6 @@ In reality, my Wordpress paradise was already starting to crumble:
 Google Webmaster Tools was reporting an average page download time time on 1.5 seconds, occassionally peaking at 5 seconds!
 
 This blog had less than 20 posts and was already having performance problems.
-
-<!--more-->
 
 ## What's the alternative?
 
