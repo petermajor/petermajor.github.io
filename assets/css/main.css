@@ -1,98 +1,46 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: STANLEY - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
-
 body {
-  	background-color: #ffffff;
+  	background-color: #ecf0f1;
   	font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #555;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+	font-size: 16px;
+	line-height: 26px;
+	color: #34495e;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
 }
 
-/* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    color: #333;
+  	font-family: 'Open Sans', sans-serif;
+	color: #333;
 }
 
-h1 {
-	font-size: 35px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
-
-
-/* Paragraph & Typographic */
 p {
-    line-height: 28px;
-    margin-bottom: 25px;
-    font-size: 16px;
+	margin-bottom: 20px;
 }
 
-.centered {
-    text-align: center;
-}
-
-li {
-    line-height: 28px;
-    font-size: 16px;
-}
-
-/* Links */
 a {
-    color: #1abc9c;
-    word-wrap: break-word;
-
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+	color: #1abc9c;
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
-    text-decoration: none;
-    outline: 0;
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
 }
 
 a:before,
 a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
-
-a.post-title {
-    color: #333;
-}
-
-.back-link {
-}
-
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
 
 .navbar {
 	text-transform: uppercase;
@@ -126,9 +74,92 @@ a.post-title {
 	border-color: transparent;
 }
 
-.progress-bar-theme {
-  background-color: #1abc9c;
+.content {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
+
+.post {
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	margin-bottom: 20px;
+	/*border-radius: 2px;*/
+	border-top: 1px solid #bdc3c7;
+}
+
+.post-title {
+	margin-top: 0;
+}
+
+.post-title a {
+	color: #333;
+}
+
+.post-date {
+	color: #9f9f9f;
+}
+
+.post-date .glyphicon {
+	margin-right: 8px;
+}
+
+.page-block {
+	padding: 20px 0;
+	clear: both;
+	width: 100%;
+}
+
+.page-block .page-newer {
+	float: left;
+	width: 50%;
+}
+
+.page-block .page-older {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+.page-block a {
+	color: #555;
+}
+
+.post-tag {
+	color: #9F9F9F;
+}
+
+.post-tag a {
+	color: #9F9F9F;
+}
+
+.post-tag .glyphicon {
+	margin-right: 8px;
+}
+
+.user {
+	margin: 20px;
+}
+
+.user .avatar {
+	border-radius: 50%;
+	border: 2px solid #bdc3c7;
+}
+
+.user .hr-center {
+	height: 3px;
+	background-color: #1abc9c;
+	width: 40%;
+	display: block;
+	margin: 0 auto;
+}
+
+.user h3 {
+	color: #7f8c8d;
+}
+
+
+
 
 
 /* Helpers */
@@ -173,23 +204,6 @@ a.post-title {
 	background-color: #ffffff;
 }
 
-.post {
-	padding-top: 40px;
-	padding-bottom: 0;
-}
-
-.post-more {
-	font-size: 16px;
-}
-
-/* Blog Date*/
-bd {
-	font-size: 12px;
-	text-transform: uppercase;
-	font-weight: 200;
-	margin: 4px 0;
-}
-
 /* Blog Author*/
 ba {
 	font-size: 12px;
@@ -216,59 +230,4 @@ bt .glyphicon-tags {
 
 bt a {
 	color: #9F9F9F;
-}
-
-.page-block {
-	clear: both;
-	width: 100%;
-}
-
-.page-block .page-newer {
-	float: left;
-	width: 50%;
-	padding-bottom: 40px;
-}
-
-.page-block .page-older {
-	float: right;
-	width: 50%;
-	text-align: right;
-	padding-bottom: 40px;
-}
-
-/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
-/* Effects also are controled by hover.zoom.js */
-.zoom { 
-    display:block; 
-    position:relative; 
-    overflow:hidden; 
-    background:transparent url(../img/loader.gif) no-repeat center;
-}
-
-
-    .zoomOverlay {
-        position:absolute;
-        top:0; left:0;
-        bottom:0; right:0;
-        display:none;
-        background-image:url(../img/zoom.png);
-        background-repeat:no-repeat;
-        background-position:center;
-    }
-
-.zoom2 {
-	opacity: 1;
-}
-
-.zoom2:hover {
-	opacity: 0.5;
-}
-
-img.avatar {
-	float: left;
-	border-radius: 100%;
-	border: 2px solid #FFF;
-	height: 50px;
-	width: 50px;
-	margin-right: 10px;
 }
