@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Native cross-platform mobile apps with C# and Xamarin.Forms
-date: 2015-05-20 20:53:00
+date: 2015-05-20 20:53s:00
 categories:
 - Xamarin
 tags:
@@ -20,7 +20,7 @@ For the last 9 months I've been working on a mobile application built with Xamar
 
 The first version of the app was built for Android using [MvvmCross](https://github.com/MvvmCross/MvvmCross).
 
-When I joined the project, we were just about to start the iOS version of the application and I put forward a proposal to switch out native layouts and MvvmCross and go with [Xamarin.Forms](http://xamarin.com/forms) instead.
+When I joined the project, we were just about to start the iOS version of the application and I put forward a proposal to switch out native layouts and MvvmCross and go with [Xamarin.Forms](https://xamarin.com/forms) instead.
 
 Since then, I've learned a lot about mobile app development and Xamarin in particular. Using Xamarin.Forms in a production application has been fascinating, especially dealing with the ups and downs of building a cross-platform application.
 
