@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Native cross-platform mobile apps with C# and Xamarin.Forms
-date: 2015-05-20 20:53s:00
+date: 2015-05-20 20:53:00
 categories:
 - Xamarin
 tags:
