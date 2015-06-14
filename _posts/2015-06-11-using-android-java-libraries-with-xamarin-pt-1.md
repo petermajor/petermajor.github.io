@@ -41,6 +41,8 @@ Xamarin have a comprehensive library of samples for all areas of the platform. T
 
 It's a great way to discover features that might come in handy one day.
 
+<!--more-->
+
 ## Adding a .java class
 
 Let's create a new Xamarin.Android project. I'll be using latest version of Xamarin Studio on a Mac.
