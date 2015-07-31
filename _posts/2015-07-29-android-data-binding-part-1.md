@@ -15,6 +15,8 @@ sitemap:
   changefreq: weekly
 ---
 
+This is part 1 of a n part series: [part 2]({% post_url 2015-07-31-android-data-binding-part-2 %})
+
 Google introducted Android Data Binding Library at Google I/O this year.
 
 With my WPF background and having used Xamarin Forms for the last year, I'm intrigued to see how Android's new data binding approach compares with other frameworks. If you are too, read on...
@@ -23,7 +25,7 @@ With my WPF background and having used Xamarin Forms for the last year, I'm intr
 
 One of the things I love about Android development is that whatever issue or question you have, countless people have solved it before you. Google'ing any Android development question yields more search results than you can read.
 
-That, however, is not the case for the data binding library. It's a really new feature (still in beta as I write this post) and pretty much any sample you will find will be how to bind a simple property to a read-only label.
+That, however, is not the case for the data binding library. It's a really new feature (still in RC as I write this post) and pretty much any sample you will find will be how to bind a simple property to a read-only label.
 
 The goto article for getting started is a single page in the Android documentation: [https://developer.android.com/tools/data-binding/guide.html](https://developer.android.com/tools/data-binding/guide.html).
 
@@ -33,35 +35,11 @@ On my first attempt to use the data binding library I missed this line in the _B
 
 > Also, make sure you are using a compatible version of Android Studio. Android Studio 1.3 adds the code-completion and layout-preview support for data binding.
 
-I tried for a few hours to get it working with Android Studio 1.2 with no success. I would rephrase this as __you must install Android Studio 1.3 beta__.
+I tried for an hour to get it working with Android Studio 1.2 with no success.
 
-Next up, install the build dependencies in your project _build.gradle_:
+I would rephrase this as __you must install Android Studio 1.3__.
 
-{% highlight json %}
- dependencies {
-     classpath "com.android.tools.build:gradle:1.3.0-beta1"
-     classpath "com.android.databinding:dataBinder:1.0-rc0"
- }
-{% endhighlight %}
-
-I followed these instructions to the letter and then tried to compile my app... and received a fairly generic error:
-
-> Error:(1, 0) Plugin is too old, please update to a more recent version, or set ANDROID_DAILY_OVERRIDE environment variable to "75c7c444827c6d56f408e64fd949249b8d73e8b0"
-
-Not particularly helpful, at least for a developer that's new to native development with Android Studio.
-
-I evetually figured out that that there is a newer version of the gradle build tools plugin. Unless you override your default Android Studio settings, it will not let you use an out-of-data beta plugin.
-
-You can find out the latest version of the build tools plugin by visiting this page: [https://bintray.com/android/android-tools/com.android.tools.build.gradle/view](https://bintray.com/android/android-tools/com.android.tools.build.gradle/view)
-
-At the time of writing this post, _beta 4_ is the latest version of the plugin, so updating the _build.gradle_ to use the dependency below fixed the build error:
-
-{% highlight json %}
- dependencies {
-     classpath "com.android.tools.build:gradle:1.3.0-beta4"
-     classpath "com.android.databinding:dataBinder:1.0-rc0"
- }
-{% endhighlight %}
+Since 1.3 is no longer in Canary, you should have updated from 1.2 to 1.3 already, right?
 
 ## Why use data binding?
 
@@ -264,7 +242,6 @@ In this post, we've:
 * covered what we're hoping to achieve with data binding by exploring MVVM and a simple example in another language
 * created a basic Android application with the Data Binding Library and got some very basic binding working
 
-In the next post, we'll:
+In the [next post]({% post_url 2015-07-31-android-data-binding-part-2 %}) post, we'll continue to implement the login activity using MVVM by binding the button click to the view model.
 
-* fully implement the login activity using the MVVM pattern and the Data Binding Libary
-* compare the Android implementation with the XAML / Xamarin Forms example.
+_The code samples for this post can be found in [github](https://github.com/petermajor/AndroidDataBinding/tree/Step1) in branch Step 1_
