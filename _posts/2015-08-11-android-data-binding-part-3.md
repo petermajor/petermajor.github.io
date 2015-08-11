@@ -6,6 +6,7 @@ categories:
 - Android
 tags:
 - Android
+- data binding
 published: true
 author: peter_major
 comments: true
