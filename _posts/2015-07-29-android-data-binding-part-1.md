@@ -6,7 +6,6 @@ categories:
 - Android
 tags:
 - Android
-- Xamarin
 published: true
 author: peter_major
 comments: true
@@ -15,7 +14,7 @@ sitemap:
   changefreq: weekly
 ---
 
-This is part 1 of a n part series: [part 2]({% post_url 2015-07-31-android-data-binding-part-2 %})
+This is part 1 of a n part series: [part 2]({% post_url 2015-07-31-android-data-binding-part-2 %}), [part 3]({% post_url 2015-08-11-android-data-binding-part-3 %})
 
 Google introducted Android Data Binding Library at Google I/O this year.
 

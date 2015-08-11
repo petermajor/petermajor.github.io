@@ -14,7 +14,7 @@ sitemap:
   changefreq: weekly
 ---
 
-This is part 2 of a n part series: [part 1]({% post_url 2015-07-29-android-data-binding-part-1 %})
+This is part 2 of a n part series: [part 1]({% post_url 2015-07-29-android-data-binding-part-1 %}), [part 3]({% post_url 2015-08-11-android-data-binding-part-3 %})
 
 In the previous post we got an Android application up and running with the Data Binding Library with some simple one-way binding.
 
@@ -250,6 +250,8 @@ cannot generate view binders java.lang.NullPointerException at
 android.databinding.tool.expr.FieldAccessExpr.hasBindableAnnotations(FieldAccessExpr.java:107)
 
 While the simplicity of this approach is very appealing, it still suffers from the problem that the method gets passed an instance of `View`, so I have mixed feelings about whether to use this approach or not (if it compiled for me, which it currently does not).
+
+I've committed the code to branch [Step3-bind-to-method](https://github.com/petermajor/AndroidDataBinding/tree/Step3-bind-to-method)
 
 ## Next steps
 
