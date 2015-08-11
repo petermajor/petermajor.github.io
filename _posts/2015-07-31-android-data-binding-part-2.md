@@ -254,6 +254,8 @@ While the simplicity of this approach is very appealing, it still suffers from t
 
 I've committed the code to branch [Step3-bind-to-method](https://github.com/petermajor/AndroidDataBinding/tree/Step3-bind-to-method)
 
+EDIT: this appears to be [this issue](https://code.google.com/p/android/issues/detail?id=182228)
+
 ## Next steps
 
 In this post, we've bound the button click event to a command on the view model. But there's a problem with the view model as it's implemented up to Step 3...
