@@ -13,6 +13,7 @@ comments: true
 sitemap:
   priority: 0.6
   changefreq: weekly
+  lastmod: 2015-08-11 22:25:00
 ---
 
 This is part 1 of a n part series: [part 2]({% post_url 2015-07-31-android-data-binding-part-2 %}), [part 3]({% post_url 2015-08-11-android-data-binding-part-3 %})
