@@ -13,9 +13,10 @@ comments: true
 sitemap:
   priority: 0.6
   changefreq: weekly
+  lastmod: 2015-08-19 22:00:00
 ---
 
-This is part 3 of a n part series: [part 1]({% post_url 2015-07-29-android-data-binding-part-1 %}), [part 2]({% post_url 2015-07-31-android-data-binding-part-2 %})
+This is part 3 of a 4 part series: [part 1]({% post_url 2015-07-29-android-data-binding-part-1 %}), [part 2]({% post_url 2015-07-31-android-data-binding-part-2 %}), [part 4]({% post_url 2015-08-19-android-data-binding-part-4 %})
 
 In previous posts we got an Android application up and running with the Data Binding Library with binding to an `EditText`. We also bound a `Button` click to a command on the view model.
 

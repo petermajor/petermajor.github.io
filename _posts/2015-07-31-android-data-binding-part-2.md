@@ -13,10 +13,10 @@ comments: true
 sitemap:
   priority: 0.6
   changefreq: weekly
-  lastmod: 2015-08-11 22:25:00
+  lastmod: 2015-08-19 22:00:00
 ---
 
-This is part 2 of a n part series: [part 1]({% post_url 2015-07-29-android-data-binding-part-1 %}), [part 3]({% post_url 2015-08-11-android-data-binding-part-3 %})
+This is part 2 of a 4 part series: [part 1]({% post_url 2015-07-29-android-data-binding-part-1 %}), [part 3]({% post_url 2015-08-11-android-data-binding-part-3 %}), [part 4]({% post_url 2015-08-19-android-data-binding-part-4 %})
 
 In the previous post we got an Android application up and running with the Data Binding Library with some simple one-way binding.
 
@@ -263,4 +263,4 @@ In this post, we've bound the button click event to a command on the view model.
 
 Try running the application, can you find the issue? All will be revealed in the next post...
 
-_The code samples for this post can be found in [github](https://github.com/petermajor/AndroidDataBinding/tree/Step2) in branches Step 2 and Step 3_
+_The code samples for this post can be found in [github](https://github.com/petermajor/AndroidDataBinding/tree/Step2) in branches "Step2" and "Step3"_
